@@ -51,3 +51,6 @@ JARVIS relies on several Python libraries to handle speech recognition, text-to-
 2. Run the initialization script by typing the following command and hitting Enter:
    ```bash
    py setup.py
+
+
+CREDITS - https://github.com/FatihMakes/Mark-LVII
