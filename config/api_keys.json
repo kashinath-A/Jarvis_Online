@@ -1,0 +1,21 @@
+{
+    "os_system": "windows",
+    "local_only": false,
+    "gemini_api_key": "AQ.Ab8RN6LhLoDcc2SREjD_jWQauLyFBt-WxkhMSkOCgDbA3RgU5Q",
+    "assistant_name": "JARVIS",
+    "user_name": "Kashi",
+    "ui_color": "#00a8ff",
+    "providers": {
+        "mode": "gemini",
+        "pipeline": {
+            "stt": "",
+            "llm": "",
+            "tts": ""
+        },
+        "creds": {},
+        "sidecar": "",
+        "sidecar_first": false,
+        "coding": ""
+    },
+    "camera_index": 0
+}
