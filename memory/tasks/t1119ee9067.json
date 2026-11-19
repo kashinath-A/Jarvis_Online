@@ -1,0 +1,190 @@
+{
+ "id": "t1119ee9067",
+ "agent": "researcher",
+ "title": "research the main causes of anxiety and effective strategies for ma…",
+ "task": "research the main causes of anxiety and effective strategies for managing stress",
+ "origin": "desk",
+ "deliver": "voice",
+ "status": "running",
+ "created": 1795108026.6054456,
+ "started": 1795108026.6761963,
+ "finished": 0.0,
+ "not_before": 0.0,
+ "budget": {
+  "minutes": 20,
+  "rounds": 300
+ },
+ "used": {
+  "rounds": 21,
+  "seconds": 723.4
+ },
+ "attempts": 0,
+ "quota_until": 0.0,
+ "wrap_up": false,
+ "notes_in": [],
+ "events": [
+  {
+   "t": 1795108026.6087658,
+   "kind": "state",
+   "text": "queued"
+  },
+  {
+   "t": 1795108026.6807053,
+   "kind": "state",
+   "text": "running"
+  },
+  {
+   "t": 1795108032.2799265,
+   "kind": "progress",
+   "text": "Plan: 2 questions — What are the primary biological, psychological, and environmental causes of anxiety? | What are the most effective evidence-based strategies and treatments for managing stress and anxiety?"
+  },
+  {
+   "t": 1795108032.3073707,
+   "kind": "progress",
+   "text": "Question 1: What are the primary biological, psychological, and environmental causes of anxiety?"
+  },
+  {
+   "t": 1795108125.2349424,
+   "kind": "tool",
+   "text": "search_web main causes of anxiety NIMH Mayo Clinic"
+  },
+  {
+   "t": 1795108166.4472518,
+   "kind": "tool",
+   "text": "fetch_page https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961"
+  },
+  {
+   "t": 1795108183.8098333,
+   "kind": "tool",
+   "text": "search_web biological and environmental risk factors for anxiety disorders NIMH"
+  },
+  {
+   "t": 1795108217.6497476,
+   "kind": "tool",
+   "text": "fetch_page https://discoverwhr.nih.gov/research/anxiety/"
+  },
+  {
+   "t": 1795108229.2938712,
+   "kind": "finding",
+   "text": "[1] The causes of anxiety disorders are multifactorial, involving interactions among genetics, hormones, brain biology and chemistry, stress, and environmental influences."
+  },
+  {
+   "t": 1795108237.974557,
+   "kind": "finding",
+   "text": "[1] Risk factors for anxiety include a family history of anxiety or other mental disorders, traumatic experiences in childhood or adulthood, certain personality traits such as shyness, and underlying physical conditions such as thyroid problems."
+  },
+  {
+   "t": 1795108246.282527,
+   "kind": "tool",
+   "text": "search_web APA anxiety causes biological psychological environmental"
+  },
+  {
+   "t": 1795108266.976935,
+   "kind": "tool",
+   "text": "search_web American Psychological Association anxiety causes risk factors"
+  },
+  {
+   "t": 1795108282.2423465,
+   "kind": "tool",
+   "text": "search_web Anxiety disorders American Psychological Association"
+  },
+  {
+   "t": 1795108301.0242136,
+   "kind": "tool",
+   "text": "fetch_page https://www.apa.org/topics/anxiety/"
+  },
+  {
+   "t": 1795108317.286999,
+   "kind": "tool",
+   "text": "search_web causes of anxiety biological psychological environmental site:mayoclinic.org"
+  },
+  {
+   "t": 1795108334.9263947,
+   "kind": "tool",
+   "text": "fetch_page https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803"
+  },
+  {
+   "t": 1795108345.0823998,
+   "kind": "tool",
+   "text": "search_web Causes of generalized anxiety disorder Mayo Clinic genetics brain chemistry environment"
+  },
+  {
+   "t": 1795108363.2934816,
+   "kind": "tool",
+   "text": "search_web generalized anxiety disorder causes Mayo Clinic"
+  },
+  {
+   "t": 1795108378.9584773,
+   "kind": "tool",
+   "text": "fetch_page https://my.clevelandclinic.org/health/diseases/23940-generalized-anxiety-disorder-gad"
+  },
+  {
+   "t": 1795108433.6480927,
+   "kind": "finding",
+   "text": "[2] Generalized anxiety disorder causes likely involve a mix of brain function (differences in managing worry and stress), genetics (changes in chemical messengers such as serotonin, dopamine, and GABA), and life experiences (stressful/challenging experiences over time)."
+  },
+  {
+   "t": 1795108495.626764,
+   "kind": "finding",
+   "text": "[2] Risk factors for developing GAD include being female, genetic relation to someone diagnosed with GAD, experiencing a traumatic event or child abuse, living with another mental health condition, managing a chronic illness, or frequently using substances like tobacco, alcohol, or marijuana."
+  },
+  {
+   "t": 1795108554.5816019,
+   "kind": "tool",
+   "text": "search_web psychological causes of anxiety cognitive distortions threat processing PMC"
+  },
+  {
+   "t": 1795108719.063909,
+   "kind": "progress",
+   "text": "Question 2: What are the most effective evidence-based strategies and treatments for managing stress and anxiety?"
+  },
+  {
+   "t": 1795108744.5523245,
+   "kind": "tool",
+   "text": "search_web evidence based treatments stress anxiety APA guidelines NIMH"
+  }
+ ],
+ "files": [],
+ "result": "",
+ "report": "",
+ "error": "",
+ "research": {
+  "phase": "investigate",
+  "plan": {
+   "goal": "Research the main causes of anxiety and effective strategies for managing stress.",
+   "language": "English",
+   "complete": "A comprehensive overview of the primary psychological, biological, and environmental causes of anxiety, coupled with evidence-based strategies and interventions for managing stress effectively.",
+   "subqs": [
+    {
+     "id": 1,
+     "q": "What are the primary biological, psychological, and environmental causes of anxiety?",
+     "queries": [
+      "main causes of anxiety NIMH Mayo Clinic",
+      "biological and environmental risk factors for anxiety disorders"
+     ],
+     "status": "done",
+     "rounds": 19,
+     "summary": "Anxiety disorders arise from a complex interplay of biological factors (genetics, brain chemistry involving serotonin/dopamine/GABA, hormonal fluctuations), psychological factors (cognitive threat bias, rumination, personality traits like shyness), and environmental triggers (trauma, chronic stress, substance use, adverse childhood experiences).",
+     "confidence": "high",
+     "nudged": false,
+     "gap": false
+    },
+    {
+     "id": 2,
+     "q": "What are the most effective evidence-based strategies and treatments for managing stress and anxiety?",
+     "queries": [
+      "effective strategies for managing stress and anxiety APA",
+      "evidence based treatments and coping mechanisms for anxiety"
+     ],
+     "status": "pending",
+     "rounds": 1,
+     "summary": "",
+     "confidence": "",
+     "nudged": false,
+     "gap": false
+    }
+   ]
+  },
+  "cycle": 0
+ }
+}

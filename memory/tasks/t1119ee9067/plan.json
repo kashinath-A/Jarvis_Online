@@ -1,0 +1,35 @@
+{
+ "goal": "Research the main causes of anxiety and effective strategies for managing stress.",
+ "language": "English",
+ "complete": "A comprehensive overview of the primary psychological, biological, and environmental causes of anxiety, coupled with evidence-based strategies and interventions for managing stress effectively.",
+ "subqs": [
+  {
+   "id": 1,
+   "q": "What are the primary biological, psychological, and environmental causes of anxiety?",
+   "queries": [
+    "main causes of anxiety NIMH Mayo Clinic",
+    "biological and environmental risk factors for anxiety disorders"
+   ],
+   "status": "pending",
+   "rounds": 0,
+   "summary": "",
+   "confidence": "",
+   "nudged": false,
+   "gap": false
+  },
+  {
+   "id": 2,
+   "q": "What are the most effective evidence-based strategies and treatments for managing stress and anxiety?",
+   "queries": [
+    "effective strategies for managing stress and anxiety APA",
+    "evidence based treatments and coping mechanisms for anxiety"
+   ],
+   "status": "pending",
+   "rounds": 0,
+   "summary": "",
+   "confidence": "",
+   "nudged": false,
+   "gap": false
+  }
+ ]
+}

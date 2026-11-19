@@ -1,0 +1,35 @@
+{
+  "identity": {},
+  "preferences": {
+    "language": {
+      "value": "English",
+      "updated": "2026-11-19"
+    }
+  },
+  "projects": {},
+  "relationships": {
+    "mom_visible_in_camera": {
+      "value": "true",
+      "updated": "2026-11-19"
+    }
+  },
+  "wishes": {},
+  "notes": {},
+  "sessions": [
+    {
+      "date": "2026-11-19",
+      "summary": "The user asked the AI to perform physical tasks like turning on a camera to identify their mother and activating a monitor via a wake word, both of which were outside the AI's capabilities. Additionally, the user sought astrological predictions and email access, which the AI decl",
+      "language": "English"
+    },
+    {
+      "date": "2026-11-19",
+      "summary": "The user discussed their engineering studies and role as research head for drones and robotics, detailing a mini drone project they are actively building. They also interacted across several languages, requesting news, music playback via Spotify, photo editing, and information on",
+      "language": "English"
+    },
+    {
+      "date": "2026-11-19",
+      "summary": "The user inquired about the AI's ability to directly access their Google Sheets and learned that permission cannot be granted due to security restrictions. The user then discussed creating a document and was informed the AI can provide content saved as a text file.",
+      "language": "English"
+    }
+  ]
+}

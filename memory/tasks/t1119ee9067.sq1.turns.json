@@ -1,0 +1,483 @@
+[
+ {
+  "role": "user",
+  "text": "[RESEARCH GOAL] Research the main causes of anxiety and effective strategies for managing stress.\n[THE PLAN]\n  1. What are the primary biological, psychological, and environmental causes of anxiety?\n  2. What are the most effective evidence-based strategies and treatments for managing stress and anxiety?\n\n[NOW: QUESTION 1] What are the primary biological, psychological, and environmental causes of anxiety?\nSuggested searches: main causes of anxiety NIMH Mayo Clinic; biological and environmental risk factors for anxiety disorders\nTime for this question: about 8.0 minutes, 30 rounds."
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_6549607423798519740",
+    "name": "search_web",
+    "args": {
+     "query": "main causes of anxiety NIMH Mayo Clinic"
+    },
+    "sig": "EnsKeQFpFH0TV8tyY1gsNwWSJ8K+BrKVWndVw+a5DKrlrS65bAFgXlIi2F2hPsj+EW0Bnp9Qc8SygDrFVUT2nGDvTQbf5nXfXUI3lUAur7/2fbLR9vvYM1ASkZcy0iKjPBrtbSccOU1MOlTA1rZklozuIUDqhTm/f4OVhM8="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_6549607423798519740",
+    "name": "search_web",
+    "result": "<<<UNTRUSTED source=web>>>\nResults for: main causes of anxiety NIMH Mayo Clinic\n1. Anxiety disorders - Symptoms and causes - Mayo Clinic\n   https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961\n   Substance-induced anxiety disorder is characterized by symptoms of intense anxiety or panic that are a direct result of misusing drugs, taking medications, being exposed to a toxic substance or withdrawal from drugs. Other types of anxiety disorders. Certain types of anxiety disorders or phobias don\n2. Generalized anxiety disorder - Symptoms and causes - Mayo Clinic\n   https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803\n   It's possible to develop generalized anxiety disorder as a child or an adult. Generalized anxiety disorder has symptoms that are similar to panic disorder, obsessive-compulsive disorder and other types of anxiety, but they're all different conditions. Living with generalized anxiety disorder can be \n3. Anxiety Disorders - National Institute of Mental Health (NIMH)\n   https://www.nimh.nih.gov/health/topics/anxiety-disorders?hl=en-US\n   Learn about NIMH research on anxiety disorders. Find resources on the signs and symptoms of anxiety disorders and potential treatments and therapies.\n4. What Causes Anxiety? Risk Factors and More - Healthline\n   https://www.healthline.com/health/anxiety-causes\n   Jul 23, 2025 · The exact causes of anxiety disorders are unknown. According to the National Institute of Mental Health (NIMH), a combination of genetic and environmental factors may play a role.\n5. Anxiety: Your Questions Answered - Mayo Clinic Proceedings\n   https://www.mayoclinicproceedings.org/article/S0025-6196(11)62317-3/fulltext\n   Contents: The author explores several different facets of anxiety disorders, reviewing their biological, psychological, and social causes. Pharmacological and nonpharmacological treatments, treatment course, and prognosis are discussed in a question-and-answer format throughout the book.\n6. Anxiety diagnosis and treatment - Mayo Clinic Health System\n   https://sncs-prod-external.mayo.edu/topics/anxiety\n   Feb 8, 2024 · Anxiety may start during childhood and continue into adulthood. We have the experts who can help diagnose and treat anxiety concerns.\n7. Anxiety types and self-care tips - Mayo Clinic Health System\n   https://sncs-prod-external.mayo.edu/hometown-health/speaking-of-health/overwhelmed-by-anxiety\n   May 16, 2022 · One of the most important principles of overcoming anxiety is facing your fears. Therapy can help develop a plan, and little by little, you'll grow in self-confidence to manage and cope with anxiety. Social anxiety If you struggle with social anxiety, everyday interactions cause signi\n<<<END UNTRUSTED>>>"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_16937154330208169692",
+    "name": "fetch_page",
+    "args": {
+     "url": "https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961"
+    },
+    "sig": "EnsKeQFpFH0TQQRRCmjJAr+FXAdC9Mw2j12KnVF6K/IDGIEss+FVALdXOQisAUSbUZpOkH09d/Cp6tfaUe4qRX4+SH5zdhD5lQ+iQPBu8eMxFF5z9+doLSfgkKQz46RHuARNK+4VPhpBqgkFoIBthmXK/arFSGkkM208PXc="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_16937154330208169692",
+    "name": "fetch_page",
+    "result": "status=failed action=fetch_page url=https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961 reason=\"the site answered 403\" -- This did NOT happen. Tell the user so in their own language, with the reason. Do not claim any part of it succeeded."
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_17148459167299410601",
+    "name": "search_web",
+    "args": {
+     "query": "biological and environmental risk factors for anxiety disorders NIMH"
+    },
+    "sig": "EnsKeQFpFH0Twmzy42SGGvK7BWGR91nno/EzE1gx0P7vVkb4vHu7BNhHnmLFUH5/CePbtPrxwD1pQsStO6pEuO5jgXYeNBzYHxIAaihvR9S6jScOVxBJxSuLeXRQjfdlRZUB6M0lfgJ0uD0LpEB7anBIZBrfOeFnDW18Bt8="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_17148459167299410601",
+    "name": "search_web",
+    "result": "<<<UNTRUSTED source=web>>>\nResults for: biological and environmental risk factors for anxiety disorders NIMH\n1. Anxiety Disorders - National Institute of Mental Health (NIMH)\n   https://www.nimh.nih.gov/health/topics/anxiety-disorders?concern=/\n   NIMH conducts and funds research to examine environmental and genetic factors that contribute to anxiety disorders. These include studies comparing brain development and biology among people with and without anxiety disorders. Our supported research also focuses on family and other environmental fac\n2. Psychosocial and biological risk factors of anxiety disorders ...\n   https://pmc.ncbi.nlm.nih.gov/articles/PMC8563629/\n   Anxiety disorders are a common problem in adolescent mental health. Previous studies have investigated only a limited number of risk factors for the development of anxiety disorders concurrently. By investigating multiple factors simultaneously, a ...\n3. What Causes Anxiety? Risk Factors and More - HealthlineAnxiety Research Overview | DiscoverWHR (NIH)Biological Psychological and Environmental Risk Factors ...The Neurobiological Mechanisms of Generalized Anxiety ...National Institute of Mental Health (NIMH) - Transforming the ...\n   https://www.healthline.com/health/anxiety-causes\n   What causes anxiety disorders? The exact causes of anxiety disorders are unknown. According to the National Institute of Mental Health (NIMH), a combination of genetic and environmental factors may play a role. Brain chemistry is also being studied as a possible cause. The areas of your brain that c\n4. Anxiety Research Overview | DiscoverWHR (NIH)\n   https://discoverwhr.nih.gov/research/anxiety/\n   The causes of anxiety disorders are multifactorial, involving interactions among genetics, hormones, brain biology and chemistry, stress, and environmental influences. 2 , 4 , 10 Risk factors include a family history of anxiety or other mental disorders, traumatic experiences in childhood or adultho\n5. Biological Psychological and Environmental Risk Factors ...\n   https://www.longdom.org/open-access-pdfs/biological-psychological-and-environmental-risk-factors-associated-with-depression-and-anxiety.pdf\n   Depression and anxiety arise through the interaction of multiple biological, psychological, environmental and social influences that collectively shape an individual's vulnerability across the lifespan. Contemporary research emphasizes that these disorders result from complex multifactorial processe\n6. The Neurobiological Mechanisms of Generalized Anxiety ...\n   https://pmc.ncbi.nlm.nih.gov/articles/PMC5832062/\n   Yet, the biological and nosological characterization of DSM-5 anxiety disorders, particularly generalized anxiety disorder (GAD), and other comorbid disorders (e.g., major depressive disorder, MDD) are unclear and demonstrate high correlations and unreliability. 5 – 7 It is hypothesized that an RDoC\n7. National Institute of Mental Health (NIMH) - Transforming the ...\n   https://www.nimh.nih.gov/\n   Find NIMH funding opportunities and announcements, including those specific to clinical research and training, and learn more about NIMH funding strategies, the application process, and grants management.\n<<<END UNTRUSTED>>>"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_2663502075457123133",
+    "name": "fetch_page",
+    "args": {
+     "url": "https://discoverwhr.nih.gov/research/anxiety/"
+    },
+    "sig": "EnsKeQFpFH0Tu8Ok+D/Ue53TfSjHZPYsI/OmJzkWeeVOoPz/Z1on8GOkLCZsm5Z0aAN7g1ziSwmtHK+W9ozk4qvhzBsoMQByD8OBpnAMwC09mRprQJvMv5YIUV8RtIAJ16zDjY/ZZjB3RU6FudXX6nDdR1y+1Io14WxxFNk="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_2663502075457123133",
+    "name": "fetch_page",
+    "result": "<<<UNTRUSTED source=web>>>\nURL: https://discoverwhr.nih.gov/research/anxiety/\nTITLE: Anxiety Research Overview | DiscoverWHR (NIH)\n\n## Signs, Symptoms, and Risk Factors\nAnxiety is a normal response to stress that is characterized by feelings of fear, worry, or uneasiness, but it becomes a disorder when these feelings are excessive, persistent, and interfere with daily functioning. 1 Anxiety disorders encompass several conditions, including generalized anxiety disorder, panic disorder, social anxiety disorder, and phobias. These conditions all involve excessive fear or worry that is disproportionate to actual circumstances, but they manifest in distinct ways: 2 - 6\n- Generalized anxiety disorder involves pervasive, disproportionate worry about routine aspects of daily life, such as health, finances, work, or family matters.\n- Panic disorder is characterized by abrupt episodes of overwhelming fear that arise in the absence of any real threat and a persistent fear of future panic attacks.\n- Social anxiety disorders manifest as intense worry or fear about engaging in social situations, such as speaking in public or meeting new people.\n- Phobias are characterized by intense, irrational fears triggered by objects or situations that pose little to no actual danger.\nOther features of anxiety disorders include restlessness, difficulty concentrating, muscle tension, irritability, sleep disturbances, and physical symptoms such as a rapid heartbeat or nausea. 1 , 2 , 5 These disorders often coexist with other mental or physical health disorders, such as depression , chronic pain syndrome, and eating disorders. 3 , 4 , 6 - 9 They are also associated with alcohol use disorder and other substance use disorders. 6 - 8\nThe causes of anxiety disorders are multifactorial, involving interactions among genetics, hormones, brain biology and chemistry, stress, and environmental influences. 2 , 4 , 10 Risk factors include a family history of anxiety or other mental disorders, traumatic experiences in childhood or adulthood, certain personality traits such as shyness, and underlying physical conditions such as thyroid problems. 2 , 4 , 5 Environmental stressors, including adverse social factors or life events, may further contribute to symptom onset. 10 , 11\n\n## Impact on Womenâs Health\nAbout one-third of U.S. adolescents and adults experience an anxiety disorder at some point in their lives, 3 with women facing more than double the lifetime risk compared with men. 4 , 5 , 12 Several biological and social factors contribute to this heightened vulnerability. Hormonal fluctuations across the menstrual cycle, pregnancy, and the postpartum period can precipitate or worsen anxiety disorders. 4 , 10 , 13 - 15 Anxiety during pregnancy and the postpartum period presents unique risks, with untreated symptoms potentially impacting both maternal and child health. 5 , 14 In addition, complications during pregnancy, childbirth, and the neonatal period can significantly increase the risk of perinatal anxiety. 16 Menopause can also increase the risk of anxiety, possibly due to estrogen fluctuations, which can affect serotonin and gamma-aminobutyric acid signaling. 11 Perimenopausal symptoms, such as hot flashes and insomnia, can also increase stress and intensify anxiety symptoms. 15 Additionally, women may disproportionately experience stressors, such as sexual abuse, that contribute to anxiety disorders, and they tend to demonstrate coping or cognitive patterns that are oriented toward rumination and worry. 10 , 15\n\n## Diagnosis and Treatment\nDiagnosing anxiety disorders typically involves clinical evaluation, including an assessment of symptoms, medical history, and, when needed, physical exams to rule out other causes. 2 , 4 Treatment often includes psychotherapy, especially cognitive behavioral therapy; medications, such as selective serotonin reuptake inhibitors or beta blockers; or a combination of both. 2 , 4 Stress management techniques, such as exercise , yoga, music-based interventions, and mindfulness-based meditation, may also be helpful for anxiety disorders. 4 , 7 , 17 Because managing mental health during pregnancy and lactation requires carefully weighing the potential risks of treatment against the risks of untreated conditions, pregnant and lactating women should seek guidance from a health care provider regarding treatment options. 5 , 15 While many individuals achieve substantial improvement with appropriate care, anxiety disorders may recur over time. 4\n\n## Ongoing Research\nOngoing research supported by the National Institute of Mental Health (NIMH) is investigating genetic, environmental, and developmental contributors to anxiety disorders. 3 This research is also identifying the neuropsychological and cognitive mechanisms that underly anxiety disorders and the associated treatment targets; examining rates and symptoms of anxiety disorders after major life events, such as pregnancy or illness; and optimizing therapeutic interventions and treatments to improve outcomes. Because women experience anxiety at a higher rate than men, researchers are also studying how hormonal influencesâespecially the roles of estrogen changes and testosteroneâand risk factors related to pregnancy and body weight affect the onset and exacerbation of anxiety. 4 , 13 , 15 , 18 In addition, there is a pressing need for more rigorous and coordinated research on optimal anxiety treatments for women, especially during pregnancy and the postpartum period, and methods to increase access to those interventions. 13 - 15 Complementary health approaches, such as yoga and meditation, as well as nutrition interventions for managing anxiety, also deserve further study. 17 , 19\n\n## NIH Research Highlight\nThe NIMH-funded Happy MotherâHealthy Baby clinical trial , which was conducted in Pakistan, investigated the efficacy of an early prenatal preventive intervention on the risk of postnatal major depression or generalized anxiety disorder. Developed with input from pregnant women in Pakistan, the intervention was a tailored form of cognitive behavioral therapy that was administered by nonspecialized providers to pregnant women with anxiety. The intervention reduced the risk of developing anxiety at 6 weeks postpartum by 74%. 20 Building on these findings, researchers are now working to identify optimal strategies for implementing the intervention and expanding its availability to the women who need it most.\n- Worry and anxiety. Centers for Disease Control and Prevention. Updated May 26, 2023. Accessed April 20, 2026. https://www.cdc.gov/howrightnow/emotion/worry/index.html\n- MedlinePlus. Anxiety. Updated October 17, 2023. Accessed April 17, 2026. https://medlineplus.gov/anxiety.html\n- Anxiety disorders. National Institute of Mental Health. Updated December 2024. Accessed April 17, 2026. https://www.nimh.nih.gov/health/topics/anxiety-disorders\n- Anxiety disorders. Office on Women's Health. Updated February 3, 2025. Accessed April 17, 2026. https://womenshealth.gov/mental-health/mental-health-conditions/anxiety-disorders\n- Women and anxiety. Food and Drug Administration. Updated January 30,  2025. Accessed April 20, 2026. https://www.fda.gov/consumers/womens-health-topics/women-and-anxiety\n- Social anxiety disorder: what you need to know. National Institute of Mental Health. Updated 2025. Accessed April 20, 2026. https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness\n- Generalized anxiety disorder: what you need to know. National Institute of Mental Health. Updated 2025. Accessed April 17, 2026. https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad\n- Panic disorder: what you need to know. National Institute of Mental Health. Updated 2025. Accessed April 20, 2026. https://www.nimh.nih.gov/health/publications/panic-disorder-when-fear-overwhelms\n- MedlinePlus. Eating disorders. Updated May 16, 2024. Accessed April 20, 2026. https://medlineplus.gov/eatingdisorders.html\n- Farhane-Medina NZ, Luque B, Tabernero C, Castillo-MayÃ©n R. Factors associated with gender and sex differences in anxiety prevalence and comorbidity: a systematic review. Sci Prog . 2022;105(4):368504221135469. doi:10.1177/00368504221135469. https://pmc.ncbi.nlm.nih.gov/articles/PMC10450496/\n- Alblooshi S, Taylor M, Gill N. Does menopause elevate the risk for developing depression and anxiety? Results from a systematic review. Australas Psychiatry . 2023;31(2):165-173. doi:10.1177/10398562231165439. https://pmc.ncbi.nlm.nih.gov/articles/PMC10088347/\n- Vasiliadis HM, Desjardins F, Roberge P, Grenier S. Sex differences in anxiety disorders in older adults. Curr Psychiatry Rep . 2020;22(12):75. doi:10.1007/s11920-020-01203-x. https://pubmed.ncbi.nlm.nih.gov/33125590/\n- Li SH, Graham BM. Why are women so vulnerable to anxiety, trauma-related and stress-related disorders? The potential role of sex hormones. Lancet Psychiatry . 2017;4(1):73-82. doi:10.1016/s2215-0366(16)30358-3. https://pubmed.ncbi.nlm.nih.gov/27856395/\n- Feldman N, Hibara A, Ye J, et al. Postpartum anxiety: a state-of-the-art review. Lancet Psychiatry . 2025;12(12):947-959. doi:10.1016/s2215-0366(25)00197-x. https://pubmed.ncbi.nlm.nih.gov/40907501/\n- Hantsoo L, Epperson CN. Anxiety disorders among women: a female lifespan approach. Focus (Am Psychiatr Publ) . 2017;15(2):162-172. doi:10.1176/appi.focus.20160042. https://pmc.ncbi.nlm.nih.gov/articles/PMC5613977/\n- Bodunde EO, Buckley D, O'Neill E, et al. Pregnancy and birth complications and long-term maternal mental health outcomes: a systematic review and meta-analysis. BJOG . 2025;132(2):131-142. doi:10.1111/1471-0528.17889. https://pmc.ncbi.nlm.nih.gov/articles/PMC11625657/\n- Anxiety and complementary health approaches. National Center for Complementary and Integrative Health. Updated September 2024. Accessed April 20, 2026. https://www.nccih.nih.gov/health/anxiety-and-complementary-health-approaches\n- McHenry J, Carrier N, Hull E, Kabbaj M. Sex differences in anxiety and depression: role of testosterone. Front Neuroendocrinol . 2014;35(1):42-57. doi:10.1016/j.yfrne.2013.09.001. https://pmc.ncbi.nlm.nih.gov/articles/PMC3946856/\n- Aucoin M, LaChance L, Naidoo U, et al. Diet and anxiety: a scoping review. Nutrients . 2021;13(12)doi:10.3390/nu13124418. https://pmc.ncbi.nlm.nih.gov/articles/PMC8706568/\n- Intervention reduces likelihood of developing postpartum anxiety and depression by more than 70%. National Institutes of Health. Updated February 26, 2024. Accessed April 29, 2026. https://www.nih.gov/news-events/news-releases/intervention-reduces-likelihood-developing-postpartum-anxiety-depression-more-70\n\n## Learn More About NIH Resources for Anxiety Research\n<<<END UNTRUSTED>>>"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_4500889307395100524",
+    "name": "record_finding",
+    "args": {
+     "source_url": "https://discoverwhr.nih.gov/research/anxiety/",
+     "source_title": "Anxiety Research Overview | DiscoverWHR (NIH)",
+     "claim": "The causes of anxiety disorders are multifactorial, involving interactions among genetics, hormones, brain biology and chemistry, stress, and environmental influences.",
+     "quote": "The causes of anxiety disorders are multifactorial, involving interactions among genetics, hormones, brain biology and chemistry, stress, and environmental influences.",
+     "stance": "supports"
+    },
+    "sig": "EnsKeQFpFH0TF4e9qD4I/AwA/wgQ+yv0h1Uzg1GdQ45HZMbzRC7KIzDYm2F0B4Os4SPNyyNpmhYHzK8UNRqwiiJ3XhFryE+2dXGhH+973GjzVz66xIt4Rb9oBJOe/TlS0pCUGSjQqKJrwgpQnX/5GnIZ0KlzEQ7qe2lreDg="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_4500889307395100524",
+    "name": "record_finding",
+    "result": "status=done action=record_finding source=1 quote_check=exact"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_11989671710859940605",
+    "name": "record_finding",
+    "args": {
+     "stance": "supports",
+     "claim": "Risk factors for anxiety include a family history of anxiety or other mental disorders, traumatic experiences in childhood or adulthood, certain personality traits such as shyness, and underlying physical conditions such as thyroid problems.",
+     "quote": "Risk factors include a family history of anxiety or other mental disorders, traumatic experiences in childhood or adulthood, certain personality traits such as shyness, and underlying physical conditions such as thyroid problems.",
+     "source_url": "https://discoverwhr.nih.gov/research/anxiety/",
+     "source_title": "Anxiety Research Overview | DiscoverWHR (NIH)"
+    },
+    "sig": "EnsKeQFpFH0TU7JEkZQUpbJBM0N20RonsgyhjRsgxUgYFAnQzEPrI/sKnQnvXY8gj+80NknSZNlfOJOO18PUOJzq0Ryb+GvKE4VzObsuEyJmit9mUlQ7HnOeTSIhUqt2mhSYFBQaUuTaVw1HINK6TGhR2hHKafILMTl/xMQ="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_11989671710859940605",
+    "name": "record_finding",
+    "result": "status=done action=record_finding source=1 quote_check=exact"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_17987665983720478761",
+    "name": "search_web",
+    "args": {
+     "query": "APA anxiety causes biological psychological environmental"
+    },
+    "sig": "EnsKeQFpFH0TEQJxZQh7qHqHv5zjsGdZIX16/57F4NGgLysOwavmyvNppnfuCGQxgl/wfivXnQVSWHD30skMvP95jN7RCDpEJ3jCZGUXvXJNMMxovPiO/ILyI49bL6F/otcNc+krZ6FSeLNpQ4UoO81SW1MUhy4T1fE9Yoc="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_17987665983720478761",
+    "name": "search_web",
+    "result": "status=failed action=search_web query=\"APA anxiety causes biological psychological environmental\" reason=\"no results — try other words or another language\" -- This did NOT happen. Tell the user so in their own language, with the reason. Do not claim any part of it succeeded."
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_529819650587927105",
+    "name": "search_web",
+    "args": {
+     "query": "American Psychological Association anxiety causes risk factors"
+    },
+    "sig": "EnsKeQFpFH0TC4PEXQp57N1UTD8kJqW7Ty/imD4fk/3yVjtVCc53rjbjiDe5MZU8S9Oa6T5IEKtXio66fLCtngOZMqSrgfyzh77xVW/0FoCeo+4PTU6uV0P+4ovcI/6vGGyOR/ii3GqODSnsJPHL0B/Lna4iG/kyOD1v5lU="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_529819650587927105",
+    "name": "search_web",
+    "result": "status=failed action=search_web query=\"American Psychological Association anxiety causes risk factors\" reason=\"no results — try other words or another language\" -- This did NOT happen. Tell the user so in their own language, with the reason. Do not claim any part of it succeeded."
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_9490445961202969243",
+    "name": "search_web",
+    "args": {
+     "query": "Anxiety disorders American Psychological Association"
+    },
+    "sig": "EnsKeQFpFH0TtpEbItcn9+MQv2YcrUne1ZgMT4m2aj7GD097BpKKEn1VwJiQxghJDjVfpHaOLHeIAiHZl8P/J/g2w2afnZh5v/2159b4wi95TsnhiF2+wMoiIcb2qyG0VnhsEon9qpLt6fUdF4nF4ZlexwE+608675A3/RM="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_9490445961202969243",
+    "name": "search_web",
+    "result": "<<<UNTRUSTED source=web>>>\nResults for: Anxiety disorders American Psychological Association\n1. Anxiety - American Psychological Association (APA)\n   https://www.apa.org/topics/anxiety/\n   Anxiety is characterized by feelings of tension, worried thoughts, and physical changes. Anxiety is considered a future-oriented, long-acting response broadly focused on a diffuse threat.\n2. How psychologists help with anxiety disorders\n   https://www.apa.org/topics/anxiety/disorders\n   Oct 1, 2016 · Anxiety disorders can severely impair a person’s ability to function at work, school, and in social situations and can interfere with a person’s relationships.\n3. anxiety disorder – APA Dictionary of Psychology\n   https://dictionary.apa.org/anxiety-disorder\n   1 day ago · This category includes, for example, panic disorder, various phobias (e.g., specific phobia, social phobia), and generalized anxiety disorder. Anxiety disorders have a chronic course, albeit waxing and waning in intensity, and are among the most common mental health problems in the Unite\n4. Anxiety disorders. - APA PsycNet\n   https://psycnet.apa.org/record/2024-20574-019\n   Anxiety disorders are costly, debilitating, and prevalent. In the Diagnostic and Statistical Manual of Mental Disorders, this class of diagnoses includes panic disorder, agoraphobia, social anxiety disorder, generalized anxiety, specific phobias, selective mutism, and separation anxiety disorder. Th\n5. Anxiety disorders. - APA PsycNet\n   https://psycnet.apa.org/record/2018-03401-018\n   This chapter discusses the anxiety disorders as defined in the fifth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM–5): phobia, panic disorder, agoraphobia, social anxiety disorder, generalized anxiety disorder, and anxiety disorders more typical of childhood. It first rev\n6. anxiety – APA Dictionary of Psychology\n   https://dictionary.apa.org/anxiety\n   1 day ago · Anxiety is considered a future-oriented, long-acting response broadly focused on a diffuse threat, whereas fear is an appropriate, present-oriented, and short-lived response to a clearly identifiable and specific threat. —anxious adj.\n7. Treatment Guidelines: Anxiety and Related Disorders\n   https://aapp.org/guideline/external/anxiety\n   Guidelines for the pharmacological treatment of anxiety disorders, obsessive – compulsive disorder and posttraumatic stress disorder in primary care (2012) Guidelines for treatment of anxiety, obsessive-compulsive and posttraumatic stress disorders – Version 3.\n<<<END UNTRUSTED>>>"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_1573029782809967918",
+    "name": "fetch_page",
+    "args": {
+     "url": "https://www.apa.org/topics/anxiety/"
+    },
+    "sig": "EnsKeQFpFH0TYgLctQsuvZeEErOg+41nnj9JDwotLrXOdYpKhC0tl/+J4b9cGMeTF7ZHDPtFqtq0ezb2INlPRzlDl9BxkT4jp+Fiecm7q+S0h9t9GiFQSD2//uvV7BvfpweZYY+VXwqvmDkFJhiHEyo4810/poloDc1WJic="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_1573029782809967918",
+    "name": "fetch_page",
+    "result": "status=failed action=fetch_page url=https://www.apa.org/topics/anxiety/ reason=\"the page has no readable text (it may need a browser)\" -- This did NOT happen. Tell the user so in their own language, with the reason. Do not claim any part of it succeeded."
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_16408050894705257103",
+    "name": "search_web",
+    "args": {
+     "query": "causes of anxiety biological psychological environmental site:mayoclinic.org"
+    },
+    "sig": "EnsKeQFpFH0T6/xhiaMKQI1FGdguGwvEeF+PA4hieNn/+Wg8OoUxrwLIsVNOYqRkYQF7sY0/w75yxgqcyY6duWjAjOn1jj1zvfFmz4Xmn/GY0Aq4msXKQxAksYNkjbtc8JvMbQ515OxMo/YJUVnulbYwiwmGQrp4sk73kLA="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_16408050894705257103",
+    "name": "search_web",
+    "result": "<<<UNTRUSTED source=web>>>\nResults for: causes of anxiety biological psychological environmental site:mayoclinic.org\n1. Anxiety disorders - Symptoms and causes - Mayo Clinic\n   https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961\n   Substance-induced anxiety disorder is characterized by symptoms of intense anxiety or panic that are a direct result of misusing drugs, taking medications, being exposed to a toxic substance or withdrawal from drugs. Other types of anxiety disorders. Certain types of anxiety disorders or phobias don\n2. Generalized anxiety disorder - Symptoms and causes\n   https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803\n   Causes As with many mental health conditions, the cause of generalized anxiety disorder likely arises from a complex interaction of biological and environmental factors, which may include: Differences in brain chemistry and function. Genetics. Differences in the way threats are perceived. Developmen\n3. Anxiety and Chronic Pain or Illness - MC2593-52 - Mayo Clinic\n   https://cancereducation.mayoclinic.org/wp-content/uploads/2019/10/mc2593-52.pdf\n   Causes of Anxiety Problems Why some people struggle more than others with anxiety isn't fully understood. Many factors, including personality, genetics, biology and life experiences, likely work together.\n4. Understanding anxiety disorders - Mayo Clinic Press\n   https://mcpress.mayoclinic.org/health-letter/understanding-anxiety-disorders/\n   Anxiety is a natural human emotion, but for many, it can become an overwhelming force that significantly impacts daily life. Anxiety disorders are among the most common mental health conditions. Understanding the different forms these disorders can take and the effective treatments available is cruc\n5. Mental illness - Symptoms and causes - Mayo Clinic\n   https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968\n   Dec 13, 2022 · Mental illness, also called mental health disorders, refers to a wide range of mental health conditions — disorders that affect your mood, thinking and behavior. Examples of mental illness include depression, anxiety disorders, schizophrenia, eating disorders and addictive behaviors.\n6. Social anxiety disorder (social phobia) - Symptoms and causes\n   https://www.mayoclinic.org/diseases-conditions/social-anxiety-disorder/symptoms-causes/syc-20353561\n   Jun 19, 2021 · Like many other mental health conditions, social anxiety disorder likely arises from a complex interaction of biological and environmental factors. Possible causes include:\n7. Primary Care in Rochester and Kasson - Mayo Clinic Health System\n   https://communityhealth.mayoclinic.org/featured-stories/anxiety-disorders-faq\n   Oct 10, 2019 · A: Anxiety disorders typically come from a combination of biological, environmental and learned factors. Certain anxiety disorders, such as obsessive-compulsive disorder and social anxiety disorder, tend to run in families.\n<<<END UNTRUSTED>>>"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_11325807346283218989",
+    "name": "fetch_page",
+    "args": {
+     "url": "https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803"
+    },
+    "sig": "EnsKeQFpFH0TKobzmH+Y+p7ET0Qnd6AH8WLOYdoAeQVXosUYTzak6pLTAPq7RuKxijart4RCItYR8cM2ho/h9sPd9bz3ANPU3nbmHTvMgDG8Sv1xCrIRF/dqA073vDOPEErOkCg70E+5kdcZRjTyCFrTf8KjYuCFnKzoiA0="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_11325807346283218989",
+    "name": "fetch_page",
+    "result": "status=failed action=fetch_page url=https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803 reason=\"the site answered 403\" -- This did NOT happen. Tell the user so in their own language, with the reason. Do not claim any part of it succeeded."
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_4392212244201063568",
+    "name": "search_web",
+    "args": {
+     "query": "Causes of generalized anxiety disorder Mayo Clinic genetics brain chemistry environment"
+    },
+    "sig": "EnsKeQFpFH0TPxkSjx7fWYPHfilIFLX080mrs80ufjUKECgLouaQVEIZPiHT2kJp3U6oIlOQSA+CvpgWdaAGLR8ftjC7PQTbCfp5x1R41H09CcmBq7TY2AeV3EDdKOhWtqApITkWABC5jccMJJaF+LMrgwpd8TonMpEILS4="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_4392212244201063568",
+    "name": "search_web",
+    "result": "status=failed action=search_web query=\"Causes of generalized anxiety disorder Mayo Clinic genetics brain chemistry environment\" reason=\"no results — try other words or another language\" -- This did NOT happen. Tell the user so in their own language, with the reason. Do not claim any part of it succeeded."
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_7202768776674446648",
+    "name": "search_web",
+    "args": {
+     "query": "generalized anxiety disorder causes Mayo Clinic"
+    },
+    "sig": "EnsKeQFpFH0TnqWBHUSAIWCqhTWlC5myIBFFR2ss0L8JnZSLi1p6k5Xfj3V2hWhocs6e06ABKkwBdHgO6WCV8iIAEhzaELUAEzsiFx5C1tZEaBSlagohg5Kmr2DfmBaW4UAiacfh8/cUdtvHNelE7VVA7FPelXOUbtdeic4="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_7202768776674446648",
+    "name": "search_web",
+    "result": "<<<UNTRUSTED source=web>>>\nResults for: generalized anxiety disorder causes Mayo Clinic\n1. Generalized anxiety disorder - Symptoms and causes - Mayo Clinic\n   https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803\n   Excessive, ongoing anxiety and worry can interfere with your daily activities and may be a sign of generalized anxiety disorder, but treatment can help.\n2. Anxiety disorders - Symptoms and causes - Mayo Clinic\n   https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961\n   Generalized anxiety disorder includes persistent and excessive anxiety and worry about activities or events — even ordinary, routine issues. The worry is out of proportion to the actual circumstance, is difficult to control and affects how you feel physically.\n3. Generalized Anxiety Disorder (GAD) - Cleveland Clinic\n   https://my.clevelandclinic.org/health/diseases/23940-generalized-anxiety-disorder-gad\n   Generalized anxiety disorder (GAD) is a mental health condition that causes fear, a constant feeling of being overwhelmed and excessive worry about everyday things.\n4. Anxiety types and self-care tips - Mayo Clinic Health System\n   https://sncs-prod-external.mayo.edu/hometown-health/speaking-of-health/overwhelmed-by-anxiety\n   May 16, 2022 · Generalized anxiety disorder can cause you to not sleep well, or feel jumpy or restless. You may have an upset stomach or heart palpitations, shakiness, sweating, a dry mouth, difficulty breathing or a lump in your throat.\n5. Anxiety Disorders: Causes, Symptoms, Treatment & Types\n   https://my.clevelandclinic.org/health/diseases/9536-anxiety-disorders\n   Jul 3, 2024 · Anxiety disorders are a group of mental health conditions that cause fear, dread and other symptoms that are out of proportion to the situation. There are several types, including generalized anxiety disorder, specific phobias and social anxiety disorder. Treatment is effective and usu\n6. Generalized anxiety disorder - MayoClinic - Palo Alto Therapy\n   https://www.paloaltotherapy.com/wp-content/uploads/2010/01/gad.pdf\n   Along with phobias, panic attacks and obsessive-compulsive disorder, generalized anxiety disorder is among the most common anxiety disorders. Women are more likely than men are to experience generalized anxiety disorder. Living with generalized anxiety disorder can be difficult, but treatment is ava\n7. Generalized anxiety disorder - Diagnosis and treatment\n   https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/diagnosis-treatment/drc-20361045\n   To help diagnose generalized anxiety disorder, your doctor or mental health professional may: Do a physical exam to look for signs that your anxiety might be linked to medications or an underlying medical condition. Order blood or urine tests or other tests, if a medical condition is suspected. Ask \n<<<END UNTRUSTED>>>"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_7566294140862628220",
+    "name": "fetch_page",
+    "args": {
+     "url": "https://my.clevelandclinic.org/health/diseases/23940-generalized-anxiety-disorder-gad"
+    },
+    "sig": "EnsKeQFpFH0TrW34OBfaw3lkwhC4PSUsDx4Sorem7rTtiItolJuOdXzPDj6JoDSzfNz4aY+O73/zcxLwiXjf+9neFPAndXhbo/YW5cGXZl4/pvIKEQefxU0Za5P8i9CQNEDFXKEFyr6wGKcvhIzs4Y98/BiH9nfpdQSFAFI="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_7566294140862628220",
+    "name": "fetch_page",
+    "result": "<<<UNTRUSTED source=web>>>\nURL: https://my.clevelandclinic.org/health/diseases/23940-generalized-anxiety-disorder-gad\nTITLE: Generalized Anxiety Disorder (GAD): Symptoms & Treatment\n\n## Generalized Anxiety Disorder (GAD)\nGeneralized anxiety disorder (GAD) is a mental health condition that causes fear, a constant feeling of being overwhelmed and excessive worry about everyday things. These feelings are hard to manage on your own. It can affect children and adults. Talk therapy and medications can help.\nAdvertisement\nCleveland Clinic is a non-profit academic medical center. Advertising on our site helps support our mission. We do not endorse non-Cleveland Clinic products or services. Policy\n\n## What Is Generalized Anxiety Disorder (GAD)?\nVideo content: This video is available to watch online.\nView video online ( https://cdnapisec.kaltura.com/p/2207941/sp/220794100/playManifest/entryId/1_dgx506xh/flavorId/1_5f3sgelj/format/url/protocol/https/a.mp4 )\nHow to identify signs of generalized anxiety disorder.\nGeneralized anxiety disorder (GAD) is a mental health condition where you feel excessive worry about everyday situations. It happens often and may be hard to manage. It interferes with your daily activities at home, work or school.\nAdvertisement\nCleveland Clinic is a non-profit academic medical center. Advertising on our site helps support our mission. We do not endorse non-Cleveland Clinic products or services. Policy\nIt’s normal to feel nervous occasionally, especially after a major life stressor. Many people worry about things like health, money or family, for example. But with GAD, those feelings happen more often and more intensely, even when there’s little or no clear reason.\nThese feelings can lead to physical symptoms like restlessness, headaches or unexplained aches and pains. It can make getting through the day very difficult.\nGeneralized anxiety disorder is common. It currently affects about 3% of the adult U.S. population and 5% of people at any point during their lives. Only 43% of those affected are receiving treatment.\nA healthcare provider can help you manage GAD.\n\n## Symptoms and Causes\nImage content: This image is available to view online.\nView image online ( https://my.clevelandclinic.org/-/scassets/images/org/health/articles/23940-generalized-anxiety-disorder )\n\n## Symptoms of generalized anxiety disorder (GAD)\nThe symptoms of generalized anxiety disorder may include:\n- Excessive and persistent worry about everyday things\n- Trouble managing worries\nSymptoms may come and go. They’re often worse when you feel stressed .\nYou may feel physical symptoms with ongoing worry, too, like:\n- Difficulty falling asleep and/or staying asleep\n- Fatigue\n- Feeling on edge or irritable\n- Headaches\n- Heart palpitations\n- Muscle tension\n- Restlessness\n- Shortness of breath\n- Sweating\n- Trouble concentrating\n- Unexplained pains (like muscle aches, stomachaches)\n\n## Generalized anxiety disorder causes\nResearchers don’t know the exact cause of GAD, but it likely involves a mix of factors:\nAdvertisement\n- Brain function. There may be differences in how your brain manages worry and stress.\n- Genetics . GAD may run in families. Genetic differences are thought to lead to changes in important chemical messengers in your brain ( serotonin , dopamine , GABA ), which affect your thought patterns.\n- Life experiences. Stressful or challenging experiences over time may shape how you respond to everyday situations.\n\n## Risk factors of generalized anxiety disorder\nGAD can affect children and adults. The condition usually begins in childhood or adolescence but may start at any age.\nYou may be more at risk of developing GAD if you:\n- Are female\n- Are biologically related to someone diagnosed with GAD\n- Experienced a traumatic event or significant stress in your life\n- Experienced child abuse\n- Live with another mental health condition, like panic attacks , depression or a strong fear ( phobia )\n- Manage a chronic illness\n- Frequently use substances like tobacco, alcohol or marijuana\n\n## Complications of generalized anxiety disorder\nGAD may happen alongside other mental health conditions like substance use disorder and depression. It’s common to feel significant mood swings or changes in your behavior and energy level.\nThis condition can also raise your risk of thinking about suicide or wanting to hurt yourself . If you’re ever in a difficult spot, don’t hesitate to reach out for help when you need it. Call or text 988 . This is the Suicide & Crisis Lifeline (U.S.). Someone is available to talk to you 24/7.\nAdvertisement\n\n## Diagnosis and Tests\n\n## How doctors diagnose generalized anxiety disorder (GAD)\nA healthcare provider, like your primary care physician , may refer you to a mental health specialist, like a psychologist or psychiatrist . They’ll ask questions about your mental health and medical history to better understand what you’re experiencing.\nIt’s OK to feel nervous or unsure, but try to be as open as you can. Your honesty helps your provider truly understand what you’re going through so they can offer the right care to help you feel better.\nYour provider may do a physical exam , have you complete a mood questionnaire, like the GAD-7, make observations about your facial expressions and speech, and run tests to see if something else is causing your symptoms. These tests may include:\n- Blood tests ( thyroid function test , blood glucose test , drug test )\n- Echocardiogram\n\n## Generalized anxiety disorder criteria\nProviders use the criteria in the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition ( DSM-5-TR ). To be diagnosed with GAD, you must feel worried most days for at least six months. The worry is hard to manage.\nIn addition to feeling anxious, adults typically experience at least three of the following symptoms (children only need one):\n- Feeling restless or on edge\n- Getting tired easily\n- Trouble concentrating or feeling like your mind goes blank\n- Feeling irritable\n- Muscle tension\n- Difficulty falling or staying asleep or sleep that doesn’t feel restful\nAdvertisement\nThese symptoms interfere with your daily life. They may affect your work, relationships and overall health.\nYour provider will check that GAD isn’t caused by drugs or medicine you take. They’ll also make sure symptoms can’t be better explained by another mental health disorder. These may include panic disorder, social anxiety , obsessive-compulsive disorder or post-traumatic stress disorder (PTSD), among others.\n\n## Management and Treatment\n\n## How is generalized anxiety disorder treated?\nGAD is usually treated with psychotherapy, medications or a combination of both. Research shows that the largest improvement happens with combined treatment (medications plus therapy). Your provider will work with you to find the right treatment plan based on your symptoms, needs and overall health.\n\n## Psychotherapy for GAD\nPsychotherapy , also known as talk therapy, is a treatment that helps you explore and better understand your thoughts, emotions and behaviors. It involves working with a licensed mental health professional in a safe, supportive setting.\nTherapy can also provide tools and strategies to improve your well-being and how you function day to day.\nCognitive behavioral therapy (CBT) is one of the most effective approaches for treating GAD. It helps you notice and change negative thoughts that make your anxiety worse and make you behave in a certain way. Over time, CBT may help reduce excessive worry and build healthier coping skills.\nAdvertisement\n\n## Medications for GAD\nMedication may also be part of your GAD treatment plan. Common options may include:\n- Selective serotonin reuptake inhibitors (SSRIs), like escitalopram, paroxetine or sertraline\n- Serotonin-norepinephrine reuptake inhibitors (SNRIs), like duloxetine and venlafaxine\n- Benzodiazepines (recommended for short-term use)\n- Buspirone\nIf you don’t respond to those medications, your provider may consider the following:\n- Tricyclic antidepressants , like amitriptyline\n- Second-generation antipsychotics\n- Valproate\n\n## When should I see my healthcare provider about generalized anxiety disorder (GAD)?\nIf you’re taking medication for generalized anxiety disorder, it’s important to see your provider regularly. They’ll check how well the medication works and adjust the dose if needed. Let them know if you have any side effects or new symptoms.\nIf you’re in therapy, try to attend all of your sessions, and reschedule if you need to miss one. It can take time to feel the full benefits of treatment. But sticking with it is an important part of your treatment.\nIf at any time you feel overwhelmed or at risk of harming yourself, tell your provider. If you’re in immediate danger, contact 911 or your local emergency services number.\n\n## Outlook / Prognosis\n\n## What can I expect if I have generalized anxiety disorder?\nThe outlook can vary from person to person. For some, GAD may be a long-term condition that requires ongoing management. Some days, your anxiety may feel stronger. This is especially true when you’re stressed. Other days, it may feel easier to manage.\nAdvertisement\nTreatment may make a meaningful difference. The right mix of therapy, medication and coping strategies can help you manage symptoms and feel more in control. Your care team will work closely with you to find what works best for your body, your lifestyle and your goals. And if your needs change over time, your treatment plan can change with you.\n\n## How can I take care of myself with this condition?\nIf you have GAD, there are steps you can take, alongside medical treatment, to help manage your symptoms:\n- Make small changes . Cut back on caffeine, decrease social media use, socialize with friends and family, get enough sleep, eat healthy and stay physically active.\n- Try relaxation techniques . Practice yoga , meditation or mindfulness techniques to de-stress .\n- Avoid addictive substances . Alcohol and addictive substances may worsen anxiety and interfere with medications you take to manage GAD.\n- Find support . Support groups offer a space to share experiences, learn from others and gain encouragement as you manage GAD.\n- Use mental health apps . Different apps can help you track mood symptoms and practice coping strategies.\n\n## A note from Cleveland Clinic\nGeneralized anxiety disorder (GAD) can make everyday tasks feel overwhelming. Simple activities, like cooking or leaving your house, may trigger anxiety. By the end of the day, the constant stress can leave you feeling drained.\nBut you don’t have to manage these symptoms on your own. A healthcare provider can help you explore coping strategies and find a treatment plan that fits your needs. Therapy, medication or a combination of both may offer relief.\nProgress takes time. You’ll need to be patient with yourself. You might not feel different right away, but with help, you can start to feel more like yourself.\n\n## Better health starts here\nSign up for our Health Essentials emails for expert guidance on nutrition, fitness, sleep, skin care and more.\n\n## Experts You Can Trust\nLearn more about the Health Library and our editorial process .\n\n## References\nCleveland Clinic’s health articles are based on evidence-backed information and review by medical professionals to ensure accuracy, reliability and up-to-date clinical standards.\n\n## Experts You Can Trust\n\n## References\nCleveland Clinic’s health articles are based on evidence-backed information and review by medical professionals to ensure accuracy, reliability and up-to-date clinical standards.\n- Abejuela HR, Osser DN. The Psychopharmacology Algorithm Project at the Harvard South Shore Program: An Algorithm for Generalized Anxiety Disorder ( https://pubmed.ncbi.nlm.nih.gov/27384395/ ) . Harv Rev Psychiatry . 2016 Jul-Aug;24(4):243-56. Accessed 5/20/2025.\n- American Psychiatric Association. What are Anxiety Disorders? ( https://www.psychiatry.org/patients-families/anxiety-disorders/what-are-anxiety-disorders ) Last reviewed 6/2023. Accessed 5/20/2025.\n- Anxiety & Depression Association of America. Generalized Anxiety Disorder (GAD) ( https://adaa.org/understanding-anxiety/generalized-anxiety-disorder-gad ) . Last updated 10/25/2022. Accessed 5/20/2025.\n- Cuijpers P, Sijbrandij M, Koole SL, et al. Adding psychotherapy to antidepressant medication in depression and anxiety disorders: a meta-analysis ( https://pubmed.ncbi.nlm.nih.gov/24497254/ ) . World Psychiatry . 2014 Feb;13(1):56-67. Accessed 5/20/2025.\n- Generalized Anxiety Disorder. In: Diagnostic and Statistical Manual of Mental Disorders. 5th ed. Arlington, VA: American Psychiatric Association; 2013.\n- Merck Manual: Professional Version. Generalized Anxiety Disorder ( https://www.merckmanuals.com/professional/psychiatric-disorders/anxiety-and-stressor-related-disorders/generalized-anxiety-disorder ) . Last reviewed 8/2023. Accessed 5/20/2025.\n- Mishra AK, Varma AR. A Comprehensive Review of the Generalized Anxiety Disorder ( https://pubmed.ncbi.nlm.nih.gov/37900518/ ) . Cureus . 2023 Sep 28;15(9):e46115. Accessed 5/20/2025.\n- Munir S, Takov V. Generalized Anxiety Disorder ( https://www.ncbi.nlm.nih.gov/books/NBK441870/ ) . 2022 Oct 17. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Accessed 5/20/2025.\n- National Institute of Mental Health (U.S.). Generalized Anxiety Disorder: When Worry Gets Out of Control ( https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad ) . Last revised 2022. Accessed 5/20/2025.\n\n## Care at Cleveland Clinic\nYour mental well-being is just as important as your physical well-being. Cleveland Clinic’s mental health experts can help you live life to the fullest.\n<<<END UNTRUSTED>>>"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_7877865336069013335",
+    "name": "record_finding",
+    "args": {
+     "stance": "supports",
+     "quote": "Researchers don’t know the exact cause of GAD, but it likely involves a mix of factors:\n- Brain function. There may be differences in how your brain manages worry and stress.\n- Genetics . GAD may run in families. Genetic differences are thought to lead to changes in important chemical messengers in your brain ( serotonin , dopamine , GABA ), which affect your thought patterns.\n- Life experiences. Stressful or challenging experiences over time may shape how you respond to everyday situations.",
+     "source_title": "Generalized Anxiety Disorder (GAD): Symptoms & Treatment | Cleveland Clinic",
+     "source_url": "https://my.clevelandclinic.org/health/diseases/23940-generalized-anxiety-disorder-gad",
+     "claim": "Generalized anxiety disorder causes likely involve a mix of brain function (differences in managing worry and stress), genetics (changes in chemical messengers such as serotonin, dopamine, and GABA), and life experiences (stressful/challenging experiences over time)."
+    },
+    "sig": "EoUBCoIBAWkUfROQFWPYG6/wKjaItCisPwiaU45/+Mu6XGmqZXwEYCLMxaOdprPduSUw6cuh6BlPPQJWB6MXppQXHkJYV6pKRohc2LWUrm5Ckin8xBBZFbGambB9Id+cAHGCCKk6Ozo6mGLKKzH7JxzJNFprHDEbaOXIQD7amXplibpFgtJibQ=="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_7877865336069013335",
+    "name": "record_finding",
+    "result": "status=done action=record_finding source=2 quote_check=partial"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_13155107353360313554",
+    "name": "record_finding",
+    "args": {
+     "source_title": "Generalized Anxiety Disorder (GAD): Symptoms & Treatment | Cleveland Clinic",
+     "quote": "You may be more at risk of developing GAD if you:\n- Are female\n- Are biologically related to someone diagnosed with GAD\n- Experienced a traumatic event or significant stress in your life\n- Experienced child abuse\n- Live with another mental health condition, like panic attacks , depression or a strong fear ( phobia )\n- Manage a chronic illness\n- Frequently use substances like tobacco, alcohol or marijuana",
+     "stance": "supports",
+     "claim": "Risk factors for developing GAD include being female, genetic relation to someone diagnosed with GAD, experiencing a traumatic event or child abuse, living with another mental health condition, managing a chronic illness, or frequently using substances like tobacco, alcohol, or marijuana.",
+     "source_url": "https://my.clevelandclinic.org/health/diseases/23940-generalized-anxiety-disorder-gad"
+    },
+    "sig": "EoUBCoIBAWkUfRND7R7kxa+exhZIZsy0ahhj6OHNq8UWUsHratOcMDEtjxg/EcM/WgmSb/b3vSYYlXFw/94tcWj5wjd2RJtCI69joua2OCBKA4EIDSzT4J6cJTRhYg6Vm0VQmF+mHIQYkp3aYHNS37JfBmL+EnlKjMnn83dBeD+y272hp0UDxA=="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_13155107353360313554",
+    "name": "record_finding",
+    "result": "status=done action=record_finding source=2 quote_check=exact"
+   }
+  ]
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_7718870442823005851",
+    "name": "search_web",
+    "args": {
+     "query": "psychological causes of anxiety cognitive distortions threat processing PMC"
+    },
+    "sig": "EoUBCoIBAWkUfRPo6vTCv9JJyj13e72XHWdTBcq3kV2NTEpnkRO9RzKc3Wos/yJCuCrLWDUbAp1Or0mb+gL+hFhOqb+/azqzFe3NETxBOuzBZV6OM+iGuFpGqfHNV/HEamyIvVl1HAHL3Udv5zsyoAD+z6In048q1XvbfRxiu/21gGOJI1Na/A=="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_7718870442823005851",
+    "name": "search_web",
+    "result": "<<<UNTRUSTED source=web>>>\nResults for: psychological causes of anxiety cognitive distortions threat processing PMC\n1. The impact of anxiety upon cognition: perspectives from human ...\n   https://pmc.ncbi.nlm.nih.gov/articles/PMC3656338/\n   Abstract Anxiety disorders constitute a sizeable worldwide health burden with profound social and economic consequences. The symptoms are wide-ranging; from hyperarousal to difficulties with concentrating. This latter effect falls under the broad category of altered cognitive performance which is th\n2. Investigation of Cognitive Distortions in Panic Disorder ...\n   https://pmc.ncbi.nlm.nih.gov/articles/PMC10573573/\n   In this context, cognitive distortions are highly related to depression symptomatology. This study aimed to evaluate the cognitive content of PD, GAD and SAD, which are among the anxiety disorders with the highest numbers of treatment-seeking and clinical admissions, and to compare them with a healt\n3. Neural responses to social threat and predictors of cognitive ...The impact of anxiety upon cognition ... - FrontiersKnowledge of Threat Biases Perceptual Decision Making in ...The Influence of Anxiety on Cognitive Control Processes.Anxiety and attention to threat: Cognitive mechanisms and ...\n   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5435374/\n   Mar 3, 2017 · Previous research has often highlighted hyperactivity in emotion regions to simple, static social threat cues in social anxiety disorder (SAD). Investigation of the neurobiology of SAD using more naturalistic paradigms can further reveal underlying mechanisms ... May 17, 2013 · We high\n4. The impact of anxiety upon cognition ... - Frontiers\n   https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00203/full\n   May 17, 2013 · We highlight that both threat of shock and anxiety disorders promote mechanisms associated with harm avoidance across multiple levels of cognition (from perception to attention to learning and executive function)—a “hot” cognitive function which can be both adaptive and maladaptive de\n5. Knowledge of Threat Biases Perceptual Decision Making in ...The Influence of Anxiety on Cognitive Control Processes.Anxiety and attention to threat: Cognitive mechanisms and ...\n   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10829620/\n   Jul 27, 2023 · An understanding of these computational mechanisms will help elucidate the downstream cognitive, emotional, and social consequences of threat biases in anxiety and guide points of intervention to refine anxiety treatments. Dec 31, 2016 · Enhancing our knowledge in how anxiety affects \n6. The Influence of Anxiety on Cognitive Control Processes.\n   https://www.researchgate.net/publication/306394762_The_Influence_of_Anxiety_on_Cognitive_Control_Processes\n   Dec 31, 2016 · Enhancing our knowledge in how anxiety affects cognitive control has broad implications for understanding the development of anxiety disorders, as well as emerging treatments for these conditions.\n7. Anxiety and attention to threat: Cognitive mechanisms and ...\n   https://europepmc.org/article/MED/27616718\n   Aug 7, 2016 · Abstract Anxiety disorders are common and difficult to treat. Some cognitive models of anxiety propose that attention bias to threat causes and maintains anxiety. This view led to the development of a computer-delivered treatment: attention bias modification (ABM) which predominantly t\n<<<END UNTRUSTED>>>"
+   }
+  ]
+ },
+ {
+  "role": "user",
+  "text": "[WRAP UP THIS QUESTION] Time for it is spent. Record any findings not yet recorded, then call subquestion_done."
+ },
+ {
+  "role": "model",
+  "text": "",
+  "calls": [
+   {
+    "id": "call_9633616862691460299",
+    "name": "subquestion_done",
+    "args": {
+     "summary": "Anxiety disorders arise from a complex interplay of biological factors (genetics, brain chemistry involving serotonin/dopamine/GABA, hormonal fluctuations), psychological factors (cognitive threat bias, rumination, personality traits like shyness), and environmental triggers (trauma, chronic stress, substance use, adverse childhood experiences).",
+     "confidence": "high"
+    },
+    "sig": "EoUBCoIBAWkUfRMokUWHb1noPiBlq9OPpJMR0igiVmhK5wO1uPfjZhspHJeq5vDCyuKsadOltmRTiLl9vGUpdMfVWGRQf2voZeqVN5aNRpLK93EX8yiFd0oFpVPcks01JEIWpdZ4E3BSCP7F7wKAANMnrA/avo6rLhf8LX2XvhIDcwLEVJIPbA=="
+   }
+  ]
+ },
+ {
+  "role": "tool",
+  "results": [
+   {
+    "id": "call_9633616862691460299",
+    "name": "subquestion_done",
+    "result": "status=done action=subquestion_done question=1"
+   }
+  ]
+ }
+]
